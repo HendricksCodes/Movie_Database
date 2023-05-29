@@ -1,0 +1,47 @@
+{
+  "inception": {
+    "year": "2010",
+    "rating": "8.8",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+  },
+  "Wolf of Wall Street": {
+    "year": "2013",
+    "rating": 8.6,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg"
+  },
+  "margin call": {
+    "year": "2011",
+    "rating": "7.1",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjE5NzkyNDI2Nl5BMl5BanBnXkFtZTcwMTYzNDc2Ng@@._V1_SX300.jpg"
+  },
+  "the big short": {
+    "year": "2015",
+    "rating": "7.8",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+  },
+  "tokyo drift": {
+    "year": "2006",
+    "rating": "6.0",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg"
+  },
+  "happy gilmore": {
+    "year": "1996",
+    "rating": "7.0",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWI2NjliOTYtZjE1OS00YzAyLWJjYTQtYWNmZTQzMTQzNzVjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+  },
+  "Big Daddy": {
+    "year": "1999",
+    "rating": "6.4",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOWJmZTExZTYtZjg1Mi00ZDFmLTk3MTYtZTUwYzkzODA2M2ZmXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg"
+  },
+  "Ace Ventura": {
+    "year": "1994",
+    "rating": 8.0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmVhNmFmOGYtZjgwNi00ZGQ0LThiMmQtOGZjMDUzNzJhMGIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+  },
+  "The blind side": {
+    "year": "2009",
+    "rating": "7.6",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_SX300.jpg"
+  }
+}
