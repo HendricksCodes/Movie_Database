@@ -16,18 +16,18 @@ COMP_RESPONSE = Fore.GREEN
 
 def main():
     """This function generates the command menu and initiates each function based on the input received from the user"""
-    print(MENU_COLOR + " *** My Movie Database *** ")
+    print(MENU_COLOR + " *** My Movie Collection *** ")
     while True:
         print(COMP_RESPONSE + "\nWhat would you like to do?:\n")
         print(MENU_COLOR + "0 - Exit Database")
-        print(MENU_COLOR + "1 - List Movies")
+        print(MENU_COLOR + "1 - List Movie_Night")
         print(MENU_COLOR + "2 - Add Movie")
         print(MENU_COLOR + "3 - Delete Movie")
         print(MENU_COLOR + "4 - Update Movie")
         print(MENU_COLOR + "5 - Stats")
         print(MENU_COLOR + "6 - Random Movie")
         print(MENU_COLOR + "7 - Search Movie")
-        print(MENU_COLOR + "8 - Movies Sorted By Rating")
+        print(MENU_COLOR + "8 - Movie_Night Sorted By Rating")
         print(MENU_COLOR + '9 - Generate Website')
         choice = input("Enter choice (1-8): " + USER_INPUT)
         if choice == "0":
