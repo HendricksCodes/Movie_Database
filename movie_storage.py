@@ -3,12 +3,12 @@ import requests
 
 
 def load_movie_data():
-    with open("movie_database.json") as file:
+    with open("movies.json") as file:
         return json.load(file)
 
 
 def save_movie_data(data):
-    with open("movie_database.json", "w") as file:
+    with open("movies.json", "w") as file:
         json.dump(data, file, indent=2)
 
 
