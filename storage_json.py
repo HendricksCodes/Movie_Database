@@ -16,9 +16,16 @@ class StorageJson(IStorage):
             json.dump(data, file, indent=2)
 
     def list_movies(self):
-        return self.load_movie_data()
+        movies = self.load_movie_data()
+        print(f"\n{len(movies)} movies in total")
+        if not movies:
+            print("\nNo movies in your database")
+        else:
+            for movie, data in movies.items():
+                print(f"{movie}: {data['rating']}")
 
-    def add_movie(self, title, year, rating, poster):
+    def add_movie(self):
+        title = input("Enter Movie Title: ")
         response = requests.get(f"http://www.omdbapi.com/?apikey=f465fdc9&t={title}")
         if response.status_code == 200:
             movie_data = response.json()

@@ -43,5 +43,15 @@
     "year": "2009",
     "rating": "7.6",
     "poster": "https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_SX300.jpg"
+  },
+  "expendables": {
+    "year": "2010",
+    "rating": "6.4",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTUwODQyNjM0NF5BMl5BanBnXkFtZTcwNDMwMTU1Mw@@._V1_SX300.jpg"
+  },
+  "exorcism": {
+    "year": "1975",
+    "rating": "4.9",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzIwZjMzNmYtNDY4My00NDRmLWI4NmUtOTk5NGZlYTZhZjc2XkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_SX300.jpg"
   }
 }
