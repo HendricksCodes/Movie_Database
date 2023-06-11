@@ -1,8 +1,5 @@
-from Movie_Database.istorage import IStorage
 from storage_json import StorageJson
-import random
 import colorama
-from thefuzz import fuzz
 from colorama import Fore
 
 # initialize colorama
@@ -16,15 +13,15 @@ COMP_RESPONSE = Fore.GREEN
 
 
 class MovieApp:
-    def __init__(self, storage: IStorage):
+    def __init__(self, storage: StorageJson):
         self._storage = storage
 
     def _command_list_movies(self):
         movies = self._storage.list_movies()
         return movies
 
-    def _command_movie_stats(self, movies):
-        movies = self._storage.list_movies()
+    def _command_movie_stats(self):
+        movies = self._storage.load_movie_data()
         if not movies:
             print(ERROR_COLOR + "No movies in the database.")
             return
@@ -55,7 +52,7 @@ class MovieApp:
         print()
 
     def _generate_website(self):
-        movies = self._storage.list_movies()
+        movies = self._storage.load_movie_data()
         movie_grid = ""
 
         for title, info in movies.items():
@@ -95,9 +92,7 @@ class MovieApp:
             print(MENU_COLOR + "4 - Update Movie")
             print(MENU_COLOR + "5 - Stats")
             print(MENU_COLOR + "6 - Random Movie")
-            print(MENU_COLOR + "7 - Search Movie")
-            print(MENU_COLOR + "8 - Movies Sorted By Rating")
-            print(MENU_COLOR + '9 - Generate Website')
+            print(MENU_COLOR + '7 - Generate Website')
             choice = input("Enter choice (1-8): " + USER_INPUT)
             if choice == "0":
                 print("Goodbye!")
@@ -115,18 +110,12 @@ class MovieApp:
                 self._storage.update_movie()
                 input(COMP_RESPONSE + "\nPress Enter to Continue")
             elif choice == "5":
-                self._command_movie_stats(movies)
+                self._command_movie_stats()
                 input(COMP_RESPONSE + "\nPress Enter to Continue")
             elif choice == "6":
-                random_movie()
+                self._storage.random_movie()
                 input(COMP_RESPONSE + "\nPress Enter to Continue")
             elif choice == "7":
-                search_movie()
-                input(COMP_RESPONSE + "\nPress Enter to Continue")
-            elif choice == "8":
-                sorted_by_rating()
-                input(COMP_RESPONSE + "\nPress Enter to Continue")
-            elif choice == "9":
                 self._generate_website()
                 input(COMP_RESPONSE + "\nPress Enter to Continue")
             else:

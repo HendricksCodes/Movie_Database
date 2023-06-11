@@ -31,27 +31,22 @@
   },
   "Big Daddy": {
     "year": "1999",
-    "rating": "6.4",
+    "rating": "8.9",
     "poster": "https://m.media-amazon.com/images/M/MV5BOWJmZTExZTYtZjg1Mi00ZDFmLTk3MTYtZTUwYzkzODA2M2ZmXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg"
-  },
-  "Ace Ventura": {
-    "year": "1994",
-    "rating": 8.0,
-    "poster": "https://m.media-amazon.com/images/M/MV5BYmVhNmFmOGYtZjgwNi00ZGQ0LThiMmQtOGZjMDUzNzJhMGIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
   },
   "The blind side": {
     "year": "2009",
     "rating": "7.6",
     "poster": "https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_SX300.jpg"
   },
-  "expendables": {
-    "year": "2010",
-    "rating": "6.4",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNTUwODQyNjM0NF5BMl5BanBnXkFtZTcwNDMwMTU1Mw@@._V1_SX300.jpg"
+  "remember the titans": {
+    "year": "2000",
+    "rating": "9.3",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYThkMzgxNjEtMzFiOC00MTI0LWI5MDItNDVmYjA4NzY5MDQ2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
   },
-  "exorcism": {
-    "year": "1975",
-    "rating": "4.9",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMzIwZjMzNmYtNDY4My00NDRmLWI4NmUtOTk5NGZlYTZhZjc2XkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_SX300.jpg"
+  "billions": {
+    "year": "2016\u2013",
+    "rating": "8.8",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmE0M2M2ZTUtOGI0MC00Mjg3LWJjZDQtOTcyYmFhYWNhNmU5XkEyXkFqcGdeQXVyOTA3MTMyOTk@._V1_SX300.jpg"
   }
 }

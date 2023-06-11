@@ -1,6 +1,7 @@
 from istorage import IStorage
 import json
 import requests
+import random
 
 
 class StorageJson(IStorage):
@@ -43,14 +44,31 @@ class StorageJson(IStorage):
         else:
             print(f" We got status code {response.status_code}")
 
-    def delete_movie(self, title):
+    def delete_movie(self):
+        title = input("Enter Movie title: ")
         data = self.load_movie_data()
         if title in data:
             del data[title]
+            print(f"{title} successfully deleted!")
             self.save_movie_data(data)
+        else:
+            print(f"Movie {title} not found!")
 
-    def update_movie(self, title, notes):
+    def update_movie(self):
+        title = input("Enter Movie title: ")
         data = self.load_movie_data()
         if title in data:
-            data[title]["notes"] = notes
+            rating = input("Enter new rating 1-10: ")
+            data[title]["rating"] = rating
+            print(f"Movie '{title}' rating updated to {rating}!")
             self.save_movie_data(data)
+        else:
+            print(f"Movie '{title}' not found..")
+
+    def random_movie(self):
+        movies = self.load_movie_data()
+        random_movie = random.choice(list(movies.keys()))
+        random_rating = movies[random_movie]["rating"]
+
+        print(f"\nYour random movie: {random_movie} ({float(random_rating):.1f})")
+        print()

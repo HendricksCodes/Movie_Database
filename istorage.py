@@ -11,9 +11,13 @@ class IStorage(ABC):
         pass
 
     @abstractmethod
-    def delete_movie(self, title):
+    def delete_movie(self):
         pass
 
     @abstractmethod
-    def update_movie(self, title, notes):
+    def update_movie(self):
+        pass
+
+    @abstractmethod
+    def random_movie(self):
         pass
